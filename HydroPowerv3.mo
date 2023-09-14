@@ -11,7 +11,7 @@ model HydroPowerv3
   parameter Real W_rate = 103 * 10 ^ 6 "Rated electrical power generated, W";
   parameter Real H_net = H_r + H_i + H_d + H_p - H_t;
   parameter Real p_a = 1.013 * 10 ^ 5;
-  //disturbe
+  //disturb
   parameter Real t_start_u = 500.0;
   parameter Real t_end_u = 550.0;
   parameter Real u_t_start = 0.6;
